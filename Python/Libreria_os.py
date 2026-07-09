@@ -9,3 +9,5 @@ os.listdir("ruta")
 
 #verifica si el archivo o la ruta dada existe o no, devolviendo un booleano
 os.path.exists("ruta")
+
+os.mkdir("carpeta")
