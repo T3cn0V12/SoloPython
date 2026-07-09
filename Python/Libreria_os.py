@@ -13,5 +13,11 @@ os.path.exists()
 #Crear carpeta
 os.mkdir("carpeta")
 
+#Abrir un archivo y reescribir todo lo que hay, si no existe lo crea automaticamente
 with open("registro.txt" ,"w") as archivo_salida:
     archivo_salida.write("Iniciando auditoria del sistema. \n")
+
+
+#Abrir un archivo y agregarle algo a su contenido
+with open("registro.txt" ,"a") as archivo_salida:
+    archivo_salida.write("Nueva linea al historial de auditoria del sistema. \n")
