@@ -29,3 +29,10 @@ with open("registro.txt" ,"r") as archivo_salida:
     contenido = archivo_salida.read()
 
 print(contenido)
+
+#entrar a un directorio
+os.chdir()
+
+#cambiar permisos con chmod
+#ejemplo con permiso total 777
+os.chmod("archivo a cambiar", 0o777)
