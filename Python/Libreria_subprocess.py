@@ -10,3 +10,4 @@ result = subprocess.run(["whoami"],capture_output=True, text=True)
 # Extracción de datos: Accede al atributo '.stdout' (Standard Output), que almacena el 
 # texto plano que la terminal generó tras una ejecución exitosa.
 print(result.stdout)
+
