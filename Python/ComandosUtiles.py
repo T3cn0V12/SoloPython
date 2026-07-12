@@ -13,3 +13,6 @@ with open("ejemplo", "r") as f:
 
 #si se quiere contar la cantidad de lineas que hay
 len(listaLineas) 
+
+#Para listar cada palabra 
+algo.split()
