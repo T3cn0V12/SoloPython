@@ -27,3 +27,13 @@ datos_crudos = s.recv(1024)
 
 #para convertir esos datos en legibles se usa .decode()
 texto = datos_crudos.decode()
+
+#Envia los datos que se puedan en ese instante, si la red esta muy saturada o el mensaje
+#es muy grande
+s.send("Enviar mensajes en bytes")
+
+#Opcion segura, se encarga de enviar el mensaje en porciones de forma continua hasta 
+# que se mande absolutamente todo 
+s.sendall("Mensaje en bytes")
+
+s.encode()
